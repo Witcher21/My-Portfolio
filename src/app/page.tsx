@@ -22,6 +22,7 @@ import { useRef } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import SkillsMarquee from "@/components/SkillsMarquee";
+import GlitchText from "@/components/GlitchText";
 
 const Earth = dynamic(() => import("@/components/Earth"), { ssr: false });
 
@@ -32,8 +33,7 @@ export default function Home() {
     offset: ["start start", "end start"]
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
-  const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
+
 
   return (
     <main ref={containerRef} className="min-h-screen font-sans relative z-10">
@@ -59,7 +59,7 @@ export default function Home() {
               <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-white/20 shadow-[0_0_60px_-10px_theme('colors.cyan.500/40')]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" 
+                  src="/profile.png" 
                   alt="Nawod Sanjana" 
                   className="w-full h-full object-cover"
                 />
@@ -86,16 +86,18 @@ export default function Home() {
               Hello, I&apos;m
             </motion.p>
             
+
             <motion.h1 
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
-              className="text-6xl md:text-9xl font-bold text-white font-[family-name:var(--font-outfit)] leading-[0.9] tracking-tight"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.4, type: "spring" }}
+              className="text-6xl md:text-9xl font-bold text-white font-[family-name:var(--font-outfit)] leading-[0.9] tracking-tight flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4"
             >
-              Nawod{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">
-                Sanjana
-              </span>
+              <GlitchText text="Nawod" className="text-white drop-shadow-2xl" />
+              <GlitchText 
+                text="Sanjana" 
+                className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 drop-shadow-lg" 
+              />
             </motion.h1>
 
             <motion.p 

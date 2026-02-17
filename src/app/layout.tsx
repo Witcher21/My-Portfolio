@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Outfit } from "next/font/google";
 import Background from "@/components/Background";
 import Navbar from "@/components/Navbar";
@@ -19,6 +19,18 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Nawod Sanjana | Software Engineer",
   description: "High-performance software engineer specialized in Python, ReactJS, and AI systems.",
+  manifest: "/manifest.json",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#000000",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 export default function RootLayout({

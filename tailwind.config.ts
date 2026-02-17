@@ -12,6 +12,15 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        scanline: {
+          "0%": { backgroundPosition: "0% 0%" },
+          "100%": { backgroundPosition: "0% 100%" },
+        },
+      },
+      animation: {
+        scanline: "scanline 8s linear infinite",
+      },
     },
   },
   plugins: [],

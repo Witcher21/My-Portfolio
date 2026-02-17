@@ -79,7 +79,7 @@ export default function CustomCursor() {
     <>
       {/* Inner dot — follows mouse exactly */}
       <motion.div
-        className="fixed top-0 left-0 pointer-events-none z-[9999] mix-blend-difference"
+        className="fixed top-0 left-0 pointer-events-none z-[100000] mix-blend-difference"
         style={{
           x: cursorX,
           y: cursorY,
@@ -99,7 +99,7 @@ export default function CustomCursor() {
 
       {/* Outer ring — trails with spring */}
       <motion.div
-        className="fixed top-0 left-0 pointer-events-none z-[9998]"
+        className="fixed top-0 left-0 pointer-events-none z-[99999]"
         style={{
           x: ringX,
           y: ringY,
