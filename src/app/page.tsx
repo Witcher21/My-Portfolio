@@ -6,8 +6,7 @@ import {
   Database, 
   Layers, 
   Terminal, 
-  ExternalLink,
-  Activity,
+  Activity, 
   type LucideIcon,
   ArrowUpRight,
   MapPin,
@@ -17,7 +16,7 @@ import {
   ArrowRight,
   Zap
 } from "lucide-react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { useRef } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
@@ -28,10 +27,7 @@ const Earth = dynamic(() => import("@/components/Earth"), { ssr: false });
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start start", "end start"]
-  });
+
 
 
 
