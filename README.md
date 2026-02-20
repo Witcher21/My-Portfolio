@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">Hi 👋, I'm GN Sanjana</h1>
+<h3 align="center">A passionate developer building modern web and mobile applications.</h3>
 
-## Getting Started
+<p align="center">
+  <a href="https://my-portfolio-flame-omega-88.vercel.app/"><strong>🌐 View Live Portfolio</strong></a>
+</p>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 👨‍💻 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Welcome to my personal portfolio repository! I'm a developer who loves building clean, user-friendly, and efficient applications. I specialize in modern frontend frameworks and have a strong interest in crafting software solutions that solve real-world problems. When I'm not coding, I enjoy experimenting with AI video and music generation.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🌱 Currently focusing on **Vue.js & Quasar Framework**
+- 💡 Exploring AI content creation and automation
+- 🤝 Always open to collaborating on innovative web and mobile app ideas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Featured Projects
 
-To learn more about Next.js, take a look at the following resources:
+Here are some of the key projects I've been working on:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* 💻 **Personal Portfolio Website**
+    * *Tech Stack:* Vue.js, Quasar Framework, Vercel
+    * *Description:* A fully responsive personal portfolio designed to showcase my skills, projects, and contact information. 
+    * *Link:* [Live Demo](https://my-portfolio-flame-omega-88.vercel.app/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* 🛒 **Supermarket POS System**
+    * *Description:* A comprehensive Point of Sale system developed for a client to streamline retail supermarket operations, inventory management, and billing.
 
-## Deploy on Vercel
+* 📚 **GHN Tuition Class Management System**
+    * *Description:* A management system built to handle student registrations, attendance, and administrative tasks for tuition classes efficiently.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* 🤖 **Vibe AI (Content Channel)**
+    * *Description:* A creative side-project focusing on AI-generated high-fidelity music, animations, and video content for TikTok.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠️ Skills & Tech Stack
+
+**Frontend & UI:**
+- Vue.js
+- Quasar Framework
+- HTML5, CSS3, JavaScript
+
+**Tools & Platforms:**
+- Git & GitHub
+- Vercel (Deployment)
+- AI Generation Tools (Video/Audio/Images)
+
+---
+
+## 💻 Running This Portfolio Locally
