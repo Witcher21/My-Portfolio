@@ -71,7 +71,7 @@ export default function ContactPage() {
         </div>
 
         <div className="flex gap-4 pt-8">
-            <SocialIcon icon={Github} href="https://github.com/nawod2202" />
+            <SocialIcon icon={Github} href="https://github.com/Witcher21" />
             <SocialIcon icon={Linkedin} href="#" />
             <SocialIcon icon={Twitter} href="#" />
         </div>

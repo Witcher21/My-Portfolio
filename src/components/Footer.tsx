@@ -19,7 +19,7 @@ export default function Footer() {
         </div>
 
         <div className="flex gap-6">
-            <FooterLink href="https://github.com/nawod2202" icon={Github} label="GitHub" />
+            <FooterLink href="https://github.com/Witcher21" icon={Github} label="GitHub" />
             <FooterLink href="#" icon={Linkedin} label="LinkedIn" />
             <FooterLink href="#" icon={Twitter} label="Twitter" />
             <FooterLink href="mailto:nawodsanjana@gmail.com" icon={Mail} label="Email" />

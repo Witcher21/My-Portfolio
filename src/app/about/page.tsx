@@ -76,7 +76,7 @@ export default function AboutPage() {
             {/* Social Links */}
             <div className="flex gap-4">
               <SocialLink href="https://linkedin.com" icon={Linkedin} label="LinkedIn" />
-              <SocialLink href="https://github.com" icon={Github} label="GitHub" />
+              <SocialLink href="https://github.com/Witcher21" icon={Github} label="GitHub" />
               <SocialLink href="https://twitter.com" icon={Twitter} label="Twitter" />
               <Link 
                 href="#experience" 
@@ -100,7 +100,7 @@ export default function AboutPage() {
             <div className="w-52 h-52 rounded-2xl overflow-hidden border-2 border-white/20 shadow-[0_0_60px_-10px_theme('colors.cyan.500/30')] rotate-3 group-hover:rotate-0 transition-transform duration-500">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" 
+                src="/profile.png" 
                 alt="Nawod Sanjana" 
                 className="w-full h-full object-cover"
               />
